@@ -47,7 +47,7 @@ class App extends Component {
   }
   render() {
     console.log('render() called')
-    return 
+    return (
       <div className='App'>
       {
         movies.map((movie, index) => 
